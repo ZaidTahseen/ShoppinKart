@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+
+<body>
+
+
+
+    <nav id="navbar">
+        <ul id="nav">
+            <li class="item"><a href="#">Online Shopping</a></li>
+            <li class="item"><a href="#" onclick="show_product()">Product</a></li>
+            <li class="item"><a href="#">Service</a></li>
+            <li class="item"><a href="#">Contact</a></li>
+            <li class="item num">
+
+                <a href="#" onclick="show_cart()">Cart</a>
+                <p id="cart-count">0</p>
+            </li>
+        </ul>
+
+    </nav>
+    <hr>
+
+
+    <!-- product section start here  -->
+    <section class="product_section">
+        <div class="product">
+
+        </div>
+    </section>
+
+
+    <!-- table-cart section start here  -->
+    <section class="cart_items">
+
+        
+            <table id="cart_products">
+
+            </table>
+            <br>
+            <br>
+            <br>
+            <br>
+            <center><h1 id="total_price"></h1></center>
+        
+
+    </section>
+
+
+
+    <script src="shop.js"></script>
+</body>
+
+</html>
